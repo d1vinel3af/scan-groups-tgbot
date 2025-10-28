@@ -16,12 +16,17 @@
 ## 🧩 Структура проекта
 
 ```
-project/
-├── core.py
-├── main.py
-├── .env
-├── requirements.txt
-└── README.md
+src/scan_groups_tgbot/
+    ├── __init__.py
+    ├── core.py
+    ├── main.py
+    └── .env
+    
+tests/
+    └── __init__.py
+.gitignore
+pyproject.toml
+README.md
 ```
 
 ---
@@ -31,8 +36,8 @@ project/
 ### 1. Клонирование репозитория
 
 ```bash
-git clone https://github.com/yourusername/telegram-group-scanner-bot.git
-cd telegram-group-scanner-bot
+git clone https://github.com/d1vinel3af/scan-groups-tgbot
+cd scan-groups-tgbot
 ```
 
 ### 2. Установка зависимостей
